@@ -1,0 +1,53 @@
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: first baseline;
+    background-color: aqua;
+    border-radius: 20px;
+    
+}
+nav div {
+   display: inline-block;
+    margin: 0 20px;
+    
+}
+
+div a{ display: block;
+    text-decoration: none;
+    background-color: rgb(202, 126, 25);
+    color: rgb(244, 248, 248);
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 3px solid rgb(148, 233, 57);
+    
+    
+}
+div ul{
+    padding: 0;
+   
+}
+
+ul.alt li{
+    display: block;
+    padding: 5px;
+    text-align: center;
+    background-color: aquamarine;
+    margin: 10px;
+    
+}
+.alt{
+    display: none;
+    border: 1px solid ;
+    border-radius: 20px;
+}
+div a:hover{
+    background-color: blue;
+}
+
+div:hover ul{
+    display: block;
+}
+.kapak{
+ 
+}
